@@ -1,0 +1,33 @@
+NOTICE
+======
+
+1. DeepSeek Harness (DSH) — MIT License
+----------------------------------------
+Copyright (c) 2026 DeepSeek — https://github.com/deepseek-ai
+
+main_window.py 里的 project_key() / encode_segment() / decode_segment() 是 DSH
+（session-persistence-jsonl 包）目录命名规则的 Python 重写实现。
+
+MIT 许可证要求在所有副本中保留上述版权声明，故在此声明。
+
+2. 未打包的第三方组件
+----------------------
+· Cherry Studio   AGPL-3.0   仅读取其本地数据库与目录结构，不链接、不复制其代码
+· Bun             MIT        运行 session-tools/*.js 的 JavaScript 运行时
+· PySide6         LGPL-3.0   界面框架
+· claude-code 的 projects 目录命名约定（main_window.py 里的 claude_project_dir_name）
+
+3. 美术素材
+------------
+· icon.ico / icon.png —— 由 make_icon.py 用 Qt 绘制生成，无第三方素材，MIT。
+· Background.png —— 网上找来的东方 Project 同人图，原作者未知。
+  **它不属于本项目的 MIT 许可范围。** 程序在找不到这张图时会自动使用纯色背景，
+  所以不确定能否再分发时，直接删掉它即可。原作者若希望移除，开 issue 会立刻删。
+
+1.2. English summary
+--------------------
+DSH (MIT, (c) 2026 DeepSeek) directory-naming rules were re-implemented in Python here,
+so the copyright notice above is retained. Cherry Studio, Bun and PySide6 are used but
+not bundled (Cherry Studio is never linked or copied). icon.ico / icon.png are generated
+by make_icon.py under this project's MIT license. Background.png is third-party Touhou fan
+art of unknown authorship and is NOT covered by the MIT license — delete it if unsure.
