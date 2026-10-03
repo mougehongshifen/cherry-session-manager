@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# 本地配置 / 数据库备份（绝对不能传上去）
+*.bak-sessioncopy-*
+cherrystudio.sqlite*
+*.db
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 本仓库作者自己的临时文件（以 _ 开头）
+_*.py
+_*.js
+_*.txt
+
+# 备份 / 副本类的文件（习惯用「副本」「1」「.bak」命名，别传上去）
+*副本*
+* - 副本*
+*.bak
+*.bak-*
+*.orig
+Background1.png
